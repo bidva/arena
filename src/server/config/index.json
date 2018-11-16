@@ -7,5 +7,11 @@
       "hostId": "AWS Server 2"
     }
   ],
-  "queues": []
+  "queues": [
+    {
+      "name": "mailQueue",
+      "hostId": "mailQueue",
+      "url":"redis://127.0.0.1:6379"
+    }
+  ]
 }
